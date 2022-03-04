@@ -175,13 +175,13 @@
     <div id="reservation">
        <form action="">
            <div class="form-column">
+
                <label for="Full_name">Full name:</label> 
-               <input type="text" name="full_name" id="full_name" required placeholder="Last name, First name">
-               <label for="email">email address</label>
-               <input type="email" name="email_ad" id="email_ad" required placeholder="mail@.com">
-               <br>
-               <label for="Phone_Number">Phone Number</label>
-               <input type="text" name="Phone_num" id="Phone_num" required placeholder="(+63)912345678">
+               <input type="text" name="full_name" id="full_name"  placeholder="Last name, First name">
+               <label for="email">Email Address</label>
+               <input type="email" name="email_ad" id="email_ad"placeholder="mail@.com">
+               <label for="Phone_Num">Phone Number</label>
+               <input type="text" name="Phone_num" id="Phone_num" placeholder="(+63)912345678">
                
                <p>Reservatio Dearails</p>
                
@@ -193,8 +193,9 @@
                <option value="4">4</option>
                <option value="5">5</option>
                </select>
-               <label for="reserve_date">Reserve-date</label>
+               <label for="reserve_date">Reserve-Date</label>
                <input type="date" name="reserve_date" id="reserve_date">
+            
                
                <p>Reservatio Time</p>
                <div id="reserve-time">
@@ -203,25 +204,24 @@
                <input type="radio" name="reserve_time" id="reserve_pm">
                <label for="reserve_pm">Afternoon</label>
                <input type="radio" name="reserve_time "id="reserve_night">
-               <label for="reserve_night">Night</label>
-            </div>
-
+               <label for="reserve_night">Night</label></div>
 
            </div>
            <div class="form-column">
                <label for="request">Additional Request</label>
                <textarea name="request" id="request" cols="30" rows="10"></textarea>
+
                <h3>Payment</h3>
 
                <p>Payment Accepted Cards</p>
 
                <label for="card_name">Full name</label> 
-               <input type="text" name="cardl_name" id="card_name" required placeholder="John Doe">
+               <input type="text" name="cardl_name" id="card_name"placeholder="John Doe">
                <label for="card_number">Credit Card Number:</label> 
-               <input type="number" name="card_number" id="card_number" required placeholder="1234567890">
+               <input type="number" name="card_number" id="card_number"  placeholder="1234567890">
 
              <div id="agreement">
-               <input type="checkbox" name="" id="Check_terms">
+               <input type="checkbox" name="Check_terms" id="Check_terms">
                <label for="Check_terms">I agree to the Terms and Condiltions.</label>
             </div>
                <input type="submit" value="Send">

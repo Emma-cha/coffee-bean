@@ -353,7 +353,7 @@ form input, form select, form textarea {
     text-align: center;
     text-transform: uppercase;
 }
-.form-column h3 ::after {
+.form-column h3::after {
     content: '';
     width: 150px;
     height: 30px;
